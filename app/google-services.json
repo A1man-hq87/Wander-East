@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "269722094614",
+    "project_id": "my-wander-east-d413e",
+    "storage_bucket": "my-wander-east-d413e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269722094614:android:e21473731576c1c50c7937",
+        "android_client_info": {
+          "package_name": "com.example.mywandereast"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlCUsOD_FX-7X1z9hN37VijCw2laShX5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

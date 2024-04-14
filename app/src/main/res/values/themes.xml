@@ -1,0 +1,28 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyWanderEast" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- primary brand color -->
+        <item name="colorPrimary">@color/quantum_purple500</item>
+        <item name="colorPrimaryVariant">@color/quantum_purple700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- secondary choice color. -->
+        <item name="colorSecondary">@color/quantum_teal200</item>
+        <item name="colorSecondaryVariant">@color/quantum_teal700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@android:color/holo_blue_light</item>
+        <item name="actionMenuTextColor">@android:color/holo_green_light</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
+    </style>
+    <style name="Theme.MyWanderEast" parent="Base.Theme.MyWanderEast" />
+</resources>

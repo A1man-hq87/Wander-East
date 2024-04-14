@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_button4"
+    tools:context=".MainActivity3">
+
+    <ImageButton
+        android:id="@+id/btnBack2"
+        android:layout_width="71dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#00FFFFFF"
+        android:contentDescription="back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        app:srcCompat="@drawable/back_button2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="246dp"
+        android:layout_height="109dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/sabah" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="410dp"
+        android:layout_height="560dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/custom_button3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+        <LinearLayout
+            android:layout_width="407dp"
+            android:layout_height="546dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+            app:layout_constraintEnd_toEndOf="@+id/imageView4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView5"
+            app:layout_constraintVertical_bias="1.0">
+
+            <ImageButton
+                android:id="@+id/btnPlace2"
+                android:layout_width="318dp"
+                android:layout_height="191dp"
+                android:layout_margin="20dp"
+                android:contentDescription="Place1"
+                android:scaleType="fitXY"
+                android:src="@drawable/mount_kinabalu" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:text="@string/kinabalu"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#171717"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btnPlace1"
+                android:layout_width="318dp"
+                android:layout_height="191dp"
+                android:layout_margin="20dp"
+                android:backgroundTint="#05FFFFFF"
+                android:contentDescription="Place1"
+                android:scaleType="fitXY"
+                android:src="@drawable/sabah_museum" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="307dp"
+                android:layout_height="28dp"
+                android:text="@string/topic"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btnPlace3"
+                android:layout_width="318dp"
+                android:layout_height="191dp"
+                android:layout_margin="20dp"
+                android:contentDescription="Place1"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:text="Coming Soon!!!"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btnPlace4"
+                android:layout_width="318dp"
+                android:layout_height="191dp"
+                android:layout_margin="20dp"
+                android:contentDescription="Place1"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:text="Coming Soon!!!"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="325dp"
+        android:layout_height="48dp"
+        android:fontFamily="@font/archivo_black"
+        android:text="SABAH"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#050505"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
